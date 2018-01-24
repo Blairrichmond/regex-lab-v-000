@@ -8,7 +8,7 @@ text.split(" ").select {|t| t.match(/^un\S+ing$/)}
 end
 
 def words_five_letters_long(text)
-
+text.split(" ").select {|t| t.grep(/\w{5}\//)}
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
