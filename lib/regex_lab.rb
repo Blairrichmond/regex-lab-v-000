@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  if "afoot Excellent incredible Absolute unreal Inconceivable octopus".match(/^[aeiou][AEIOU]/)
+  if word.match(/^[aeiou][AEIOU]/)
   return true
 else false
 end
